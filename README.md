@@ -19,3 +19,7 @@ I want to have a Radio-Styled Spotify Box so i decided to bulid my own with a Ra
     - Remote Control App or real Remote
     - RFID Scanner
     - Alexa/Google Home connection
+    
+## How to use
+Change secretsTemplate.py to secrets.py
+Follow Authorization: https://developer.spotify.com/documentation/general/guides/app-settings/ or Follow Authorization.txt
