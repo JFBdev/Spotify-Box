@@ -1,0 +1,15 @@
+authorize spotify
+make app
+get client id and secret
+any url and encode
+copy authorize link and add scopes
+curl
+get refreshtoken
+update secrets
+
+
+https://accounts.spotify.com/authorize?client_id=08c92744529640ae9c729f58297b0201&response_type=code&redirect_uri=https%3A%2F%2Fgithub.com%2FJFBdev&scope=playlist-modify-public%20playlist-modify-private%20user-read-currently-playing%20user-read-playback-state%20user-modify-playback-state%20user-library-modify%20user-library-read%20ugc-image-upload%20streaming%20app-remote-control
+https%3A%2F%2Fgithub.com%2FJFBdev
+curl -H "Authorization: Basic base64 of Clientid:Secret" -d grant_type=authorization_code -d code=MQCbtKe...44KN -d redirect_uri=https%3A%2F%2Fwww.foo.com%2Fauth https://accounts.spotify.com/api/token
+curl -H "Authorization: Basic MDhjOTI3NDQ1Mjk2NDBhZTljNzI5ZjU4Mjk3YjAyMDE6ZDliNGY2MjljNTljNDBiM2EzZjY0ODBjMTgyMjZiZDg=" -d grant_type=authorization_code -d code=AQBvaPErptHMyutxlp196qK9gk4u0Uo78fkQc4-xM5B1Yyh63JkGw8rsvfkidmHEIhzZWyGgM42wOGyD-NA6_xCDMOTET4GlQNnrS7_a7BmeZKuIVkw6Dciee7LxEqQ3PCcKR9OlLOCjv5P5L6j1SW91X2rKzI354J_OGJeyrHZE4YgWvH-Yz0bQO7g3KQ811QDgI6x5VINz8jkihqgX2khCZN5wIlfHrFLx4NEfn2daZ81QHiYp4-0EUXk08czHroWfzhpzv0jA6G1Cqli13pPPiwSmbOmiWGwYEYk5NmS26x9B0ScMRlPgMAhGTDZMAzSmpE9mEajgySdvysVxYn9gamRkd1OXiODa9yX6vI3dga-uJDdflzvD8uOB5TeABcwHFb2lVARm6_URCqdvp-JbuxM-KWSyvJ3SfVrAtjK2Cxf4qonMIFuz8KQiL-vqxj3BaBOOybzBNQ -d redirect_uri=https%3A%2F%2Fgithub.com%2FJFBdev https://accounts.spotify.com/api/token
+
