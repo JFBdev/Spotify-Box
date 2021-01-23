@@ -16,4 +16,4 @@ I want to have a Radio-Styled Spotify Box so i decided to bulid my own with a Ra
     - Remote Control App or real Remote
     - RFID Scanner
     - Alexa/Google Home connection
-    
+    - Make API Calls simpler, its a mess
