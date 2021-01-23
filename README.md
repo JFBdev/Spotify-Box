@@ -8,7 +8,7 @@ I want to have a Radio-Styled Spotify Box so i decided to bulid my own with a Ra
 - Done
     - Add current Song to playlist/liked songs
     - Backup (ex. Weekly Discovery) to a Playlist
-    - Replicated Spotify App Player functions (pressing previous button instead resets song instead)
+    - Replicated Spotify App Player functions (pressing previous button resets song instead of instantly skipping)
     
 - Planned 
     - Random Song from Random Artist
